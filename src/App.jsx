@@ -1,12 +1,16 @@
-import {Routes, Route} from 'react-router-dom';
+
+import Header from "./components/Header/Header.jsx";
+import Footer from "./components/Footer/Footer.jsx"
+import HomePage from './components/Pages/HomePage.jsx';
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <Header/> 
+      <Footer/>
+      <h1>Helllo</h1>
     </div>
+  
   );
 }
 
