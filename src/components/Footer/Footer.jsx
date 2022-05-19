@@ -1,9 +1,11 @@
 
 import clsx from "clsx";
+import css from "./footer.module.css"
+import { CssSyntaxError } from "postcss";
 function Footer () {
   
     return (
-        <h2>footer</h2>
+        <footer className={css.footer}></footer>
         ) }
         
 export default Footer; 

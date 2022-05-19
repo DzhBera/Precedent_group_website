@@ -1,10 +1,14 @@
+import css from "./header.module.css";
 
-
-function Navigation () {
-    return ( 
-      <h1 className="text-3xl font-bold underline">
-        Navigation
-      </h1>
-    )
+function Navigation() {
+  return (
+    <nav className={css.navigation} >
+      <a href="#"> О компании</a>
+      <a href="#">Специализации</a>
+      <a href="#"> Услуги</a>
+      <a href="#">Юристы</a>
+      <a href="#">Контакты</a>
+    </nav>
+  );
 }
-export default Navigation; 
+export default Navigation;

@@ -1,9 +1,9 @@
-
+import css from './header.module.css';
 
 function NavigationMobile () {
     return (
-        <h1 className="text-3xl font-bold underline">
-        NavigationMobile
+        <h1 className="hidden">
+          Hello
       </h1>
     )
 }
