@@ -1,0 +1,19 @@
+
+.container {
+    width: 1200px; 
+    margin: 0 auto; /*margin 0 auto нужен чтобы контейнер сам себя отцентровал*/
+  }
+  .header {
+    border-bottom: 1px solid black;
+    margin-left: 1.5rem; 
+font-size: 0.875rem;
+line-height: 1.25rem; 
+font-weight: 600; 
+    
+  }
+  .logo {
+    margin-right: 30px;
+    margin-left: 25px;
+    color: currentColor;
+    /*align-self: center;*/
+  }
