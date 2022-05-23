@@ -1,12 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 *{
   margin: 0; 
   padding: 0;
   box-sizing: border-box ;
 
 }
+:root {
+  --primary:#567474; 
+  --color-text: #EBEBEB;
+ 
+}
+
 body {
   margin: 0;
   font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 
@@ -19,12 +26,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
-@media (max-width: 412px) {
-  .container {
-    width: 100%;
-    padding: 16px;
-  } }
+
