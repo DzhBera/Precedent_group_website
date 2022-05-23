@@ -9,7 +9,8 @@ function Header () {
 
    
         <header className={css.header}>
-          <div className={css.container_header}>
+         <div className={css.container}>
+         <div className={css.container_header}>
        
        <div className={css.logo}>
       
@@ -21,6 +22,7 @@ function Header () {
     <NavigationMobile/>
    
     </div>
+         </div>
     </header>
    
         

@@ -8,6 +8,10 @@
   justify-content: center;
  
   }
+  .container{
+      margin: 0 10% 0 10%;
+
+  }
 
 .container_header {
 display: grid;
@@ -25,6 +29,7 @@ a {
   grid-template-columns: repeat(5, auto);
   justify-content: space-between;
   color: red;
+  font-weight: 400;
   
 }
 
