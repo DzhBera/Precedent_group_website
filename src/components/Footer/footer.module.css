@@ -1,18 +1,38 @@
 .footer {
   background-color: var(--primary);
-  height: 10vh; 
-width: 100%;
-bottom: 0;
-position: fixed;
-display: flex;
-flex-direction:column;
-justify-content: center;
+  height: 10vh;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 400;
+}
 
-  
-} 
-
-.container{
-    margin: 0 10% 0 10%;
-    background-color: red;
-
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-between;
+  font-weight: 400;
+  margin: 0 10% 0 10%;
+}
+.phone {
+  display: flex;
+  flex-direction: row;
+}
+.email {
+  display: flex;
+  flex-direction: row;
+}
+.location {
+  display: flex;
+  flex-direction: row;
+}
+.location {
+  font-style: normal;
+}
+img {
+  height:fit-content;
+  width: 2.4vw;
 }

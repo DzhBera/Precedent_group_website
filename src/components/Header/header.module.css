@@ -28,9 +28,13 @@ a {
   display: grid;
   grid-template-columns: repeat(5, auto);
   justify-content: space-between;
-  color: red;
+  
   font-weight: 400;
   
+}
+.logo{
+  font-weight: bold;
+  font-size: large;
 }
 
 
