@@ -1,13 +1,18 @@
 .footer {
-  background-color: green;
-  height: 300px;
-width: 300px;
-padding-top: 500px;
+  background-color: var(--primary);
+  height: 10vh; 
+width: 100%;
+bottom: 0;
+position: fixed;
+display: flex;
+flex-direction:column;
+justify-content: center;
+
   
 } 
 
-/*.container{
+.container{
     margin: 0 10% 0 10%;
     background-color: red;
 
-}*/
+}
