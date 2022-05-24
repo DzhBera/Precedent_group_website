@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Navigation from "./Navigation.jsx";
 import NavigationMobile from './NavigationMobile.jsx';
 import clsx from "clsx";
@@ -12,12 +13,10 @@ function Header () {
          <div className={css.container}>
          <div className={css.container_header}>
        
-       <div className={css.logo}>
-      
-      {" "}
-      <a href="/">Прецедент Групп</a>{" "}
-  
-      </div>
+         <Link to="/">
+          <span className={css.logo}> Прецедент Групп</span> 
+        </Link>
+
           <Navigation/>
     <NavigationMobile/>
    
