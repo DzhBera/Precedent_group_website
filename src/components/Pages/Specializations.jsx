@@ -1,6 +1,6 @@
 function Specializations() {
     return (
-        <h1>About</h1>
+        <h1>Specializations</h1>
        
      
     );

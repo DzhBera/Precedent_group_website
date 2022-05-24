@@ -1,6 +1,6 @@
 function Contacts() {
     return (
-        <h1>About</h1>
+        <h1>Контакты</h1>
        
      
     );

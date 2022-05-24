@@ -1,6 +1,6 @@
 function Lawyers() {
     return (
-        <h1>About</h1>
+        <h1>Lawyers</h1>
        
      
     );

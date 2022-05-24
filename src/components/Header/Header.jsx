@@ -17,8 +17,8 @@ function Header () {
           <span className={css.logo}> Прецедент Групп</span> 
         </Link>
 
-          <Navigation/>
-    <NavigationMobile/>
+          <Navigation className={css.navigation}/>
+    <NavigationMobile className={css.navigation_mobile}/>
    
     </div>
          </div>
