@@ -19,12 +19,15 @@ display: grid;
   background-color: inherit; 
 }
 
-a {
+nav ul li {
     color: var(--color-text)
 
 }
+nav ul li:hover {
+color: #a0b4bc; 
+}
 
-.navigation {
+.links {
   display: grid;
   grid-template-columns: repeat(5, auto);
   justify-content: space-between;
@@ -34,8 +37,16 @@ a {
 }
 .logo{
   font-weight: bold;
-  font-size: large;
+  font-size: 13px;
 }
+
+@media (max-width: 320px) {
+ .navigation {
+   display: none;
+ }
+
+
+  }
 
 
 
