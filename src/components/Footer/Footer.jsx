@@ -7,31 +7,39 @@ function Footer() {
   return (
     <footer className={css.footer}>
       <div className={css.container}>
-        <div className={css.phone}>
+        <div className= {css.phone} >
+        < div className={css.item} >
         <img
               src={PhoneIcon}
              
               alt="phone icon"
             />
-          <span><a href="tel:996312906616">+996 312 906616</a></span>
+          <a href="tel:996312906616">+996 312 906616</a>
         </div>
+        </div>
+
         <div className={css.email}>
-        <img
+        <div className={css.item}><img 
+       
               src={EmailIcon}
               
               alt="email icon"
             />
           
-          <span><a href="mailto:precedentoffice@gmail.com">precedentoffice@gmail.com</a></span>
+          <a href="mailto:precedentoffice@gmail.com">precedentoffice@gmail.com</a>
+          </div>
+        
         </div>
        
         <address className={css.location}>
-        <img
+          <div className={css.item}>
+          <img
               src={LocationIcon}
             
               alt="location icon"
             />
           <a href="https://go.2gis.com/s91li"> Бишкек, ул. Сыдыкова 187 офис 28</a>
+          </div>       
         </address>
       </div>
     </footer>

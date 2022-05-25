@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import Header from "./components/Header/Header.jsx";
+import HeaderMobile from './components/Header_Mobile/HeaderMobile.jsx';
 import Footer from "./components/Footer/Footer.jsx"
 import HomePage from './components/Pages/HomePage.jsx';
 import About from './components/Pages/About.jsx';
@@ -14,6 +15,7 @@ function App() {
       
      
       <Header/> 
+      <HeaderMobile/> 
       <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/About" element={<About />} />

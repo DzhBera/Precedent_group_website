@@ -10,7 +10,9 @@
 }
 :root {
   --primary:#567474; 
+  --gradient:#7c9c9a;
   --color-text: #EBEBEB;
+  
  
 }
 
@@ -26,4 +28,5 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 

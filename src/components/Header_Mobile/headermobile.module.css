@@ -1,0 +1,49 @@
+@media only screen and (min-width: 769px) {
+  .header > * {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .header {
+    background: linear-gradient(var(--primary), var(--gradient)) ;
+  }
+  .container {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 2fr 0.4fr;
+    color: var(--color-text);
+  }
+  .logo_container {
+    padding-top: 4.3vh;
+  }
+  .logo {
+    font-weight: bold;
+    font-size: 5vh;
+  }
+  .mobile_icon {
+    width: 15vw;
+    height: 15vh;
+  }
+  nav ul {
+    width: 100%;
+    background: inherit;
+  }
+
+  /*
+.navigation {
+  display: none;
+}
+.mobile{
+  display:block;
+}
+.mobile_icon{
+  width:10vw;
+  height:10vh;
+}
+.container_header{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}*/
+}
