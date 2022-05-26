@@ -9,22 +9,25 @@ function Footer() {
       <div className={css.container}>
         <div className= {css.phone} >
         < div className={css.item} >
-        <img
+          <div className={css.img}>
+          <img
               src={PhoneIcon}
              
-              alt="phone icon"
-            />
+              alt="phone icon"/>
+          </div>
+      
           <a href="tel:996312906616">+996 312 906616</a>
         </div>
         </div>
 
         <div className={css.email}>
-        <div className={css.item}><img 
+        <div className={css.item}>
+        <div className={css.img}><img 
        
-              src={EmailIcon}
-              
-              alt="email icon"
-            />
+       src={EmailIcon}
+       
+       alt="email icon" /></div>
+          
           
           <a href="mailto:precedentoffice@gmail.com">precedentoffice@gmail.com</a>
           </div>
@@ -33,14 +36,17 @@ function Footer() {
        
         <address className={css.location}>
           <div className={css.item}>
+          <div className={css.img}>
           <img
               src={LocationIcon}
             
-              alt="location icon"
-            />
+              alt="location icon"/>
+          </div>
+        
           <a href="https://go.2gis.com/s91li"> Бишкек, ул. Сыдыкова 187 офис 28</a>
           </div>       
         </address>
+   
       </div>
     </footer>
   );
