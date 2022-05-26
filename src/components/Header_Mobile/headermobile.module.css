@@ -7,43 +7,40 @@
 @media only screen and (max-width: 769px) {
   .header {
     background: linear-gradient(var(--primary), var(--gradient)) ;
+    color: var(--color-text);
   }
   .container {
     width: 100%;
-
+    margin: 2% 0 2% 0; 
     display: grid;
     grid-template-columns: 2fr 0.4fr;
-    color: var(--color-text);
-  }
-  .logo_container {
+
     padding-top: 4.3vh;
   }
+
   .logo {
     font-weight: bold;
     font-size: 5vh;
   }
-  .mobile_icon {
+  .button {
     width: 15vw;
     height: 15vh;
   }
-  nav ul {
+  
+}
+
+@media only screen and (max-width: 425px) {
+  .logo {
+    font-weight: bold;
+    font-size: 4vh;
+  }
+  button  {
+    width: 20vw;
+    height: 10vh;
+  }
+  img {
     width: 100%;
-    background: inherit;
+    height: auto;
   }
 
-  /*
-.navigation {
-  display: none;
-}
-.mobile{
-  display:block;
-}
-.mobile_icon{
-  width:10vw;
-  height:10vh;
-}
-.container_header{
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-}*/
 }

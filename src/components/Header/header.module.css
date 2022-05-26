@@ -20,6 +20,7 @@
 
 nav ul li {
   color: var(--color-text);
+  cursor: pointer;
 }
 nav ul li:hover {
   color: #a0b4bc;
