@@ -16,15 +16,18 @@ function App() {
      
       <Header/> 
       <HeaderMobile/> 
-      <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Specializations" element={<Specializations />} />
-          <Route path="/Services" element={<Services />} />
-          <Route path="/Lawyers" element={<Lawyers />} />
-          <Route path="/Contacts" element={<Contacts />} />
-        </Routes> 
-
+     
+       <div className="container-main">
+     
+     <Routes>
+         <Route path="/" element={<HomePage />} />
+         <Route path="/About" element={<About />} />
+         <Route path="/Specializations" element={<Specializations />} />
+         <Route path="/Services" element={<Services />} />
+         <Route path="/Lawyers" element={<Lawyers />} />
+         <Route path="/Contacts" element={<Contacts />} />
+       </Routes> 
+       </div>
       <Footer/>
       </div>
     

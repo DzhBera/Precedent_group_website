@@ -25,8 +25,9 @@ function HeaderMobile() {
             alt="navigation icon"
           />
         </button>
-        {nav}
+      
       </div>
+      {nav}
     </header>
   );
 }

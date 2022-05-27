@@ -1,0 +1,17 @@
+.main-video video{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    z-index: -1;
+    
+  }
+  .main-video::after{
+    content: "";
+    position: absolute          ;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+    object-fit: cover;
+}
