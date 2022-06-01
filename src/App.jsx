@@ -8,6 +8,7 @@ import Contacts from './components/Pages/Contacts.jsx';
 import Lawyers from './components/Pages/Lawyers.jsx';
 import Services from './components/Pages/Services.jsx';
 import Specializations from './components/Pages/Specializations.jsx';
+import Video from "./assets/video/background-video.mp4";
 
 function App() {
   return (
@@ -18,15 +19,20 @@ function App() {
       <HeaderMobile/> 
      
     
-     
-     <Routes>
-         <Route path="/" element={<HomePage />} />
+      <main className="main">
+           <div className="main-video">
+               <video src={Video} autoPlay loop muted></video>
+               
+    </div>
+    <Routes>
+    <Route path="/" element={<HomePage />} />
          <Route path="/About" element={<About />} />
          <Route path="/Specializations" element={<Specializations />} />
          <Route path="/Services" element={<Services />} />
          <Route path="/Lawyers" element={<Lawyers />} />
          <Route path="/Contacts" element={<Contacts />} />
        </Routes> 
+       </main>
      
       <Footer/>
       </div>

@@ -4,10 +4,6 @@ import Video from "./../../assets/video/background-video.mp4"
 function HomePage() {
     return (
         <main className="main">
-           <div className="main-video">
-               <video src={Video} autoPlay loop muted></video>
-               
-    </div>
     <div class="main-video-content"  >
         <h1 class="main-video-heading"> Компания «ПРЕЦЕДЕНТ ГРУПП»</h1>
         <p class="main-video-text">
