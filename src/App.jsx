@@ -17,7 +17,7 @@ function App() {
       <Header/> 
       <HeaderMobile/> 
      
-       <div className="container-main">
+    
      
      <Routes>
          <Route path="/" element={<HomePage />} />
@@ -27,7 +27,7 @@ function App() {
          <Route path="/Lawyers" element={<Lawyers />} />
          <Route path="/Contacts" element={<Contacts />} />
        </Routes> 
-       </div>
+     
       <Footer/>
       </div>
     

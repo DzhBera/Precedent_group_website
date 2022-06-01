@@ -1,6 +1,12 @@
+import css from "../Pages/pages.css";
 function About() {
     return (
-        <h1>About</h1>
+        <div className="container_about"><h1 className="about_title">О компании</h1>
+        </div>
+                
+              
+    
+    
        
      
     );
