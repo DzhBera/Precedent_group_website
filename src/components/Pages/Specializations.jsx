@@ -1,3 +1,4 @@
+import css from "../Pages/pages.css";
 function Specializations() {
     return (
         <h1>Specializations</h1>
