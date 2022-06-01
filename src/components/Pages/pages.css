@@ -1,88 +1,288 @@
-.container_about{
-    margin: 0 10% 0 10%;
-    background: linear-gradient(var(--primary), var(--gradient)); 
-    color: var(--color-text);
+.container_about {
+  margin: 0 10% 0 10%;
+  color: var(--color-text);
 }
 
-.main-video-content{
-    position: absolute;
-    left:0;
-    right:0;
-    margin: 0 0 0 0; 
-    color: var(--color-text);
-    text-align: center;
+.main-video-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 0 0 0;
+  color: var(--color-text);
+  text-align: center;
 }
-.main-video-heading{
-    text-transform: uppercase;
-    margin: 50px; 
-    text-decoration:solid;
-    font-size: 40px;
-    letter-spacing: 5px;
-    
+.main-video-heading {
+  text-transform: uppercase;
+  margin: 50px;
+  text-decoration: solid;
+  font-size: 40px;
+  letter-spacing: 5px;
 }
 .main-video-text {
-    font-size: 20px;
-    width: 60%;
-    margin: 20px auto;
-    font-style: italic;
-    line-height: 30px; 
+  font-size: 20px;
+  width: 60%;
+  margin: 20px auto;
+  font-style: italic;
+  line-height: 30px;
 }
 /*  About page */
 .about_title {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+.about-text {
+  padding-top: 10px;
+}
+
+/* Specialization page */
+.container-specialization {
+  margin: 0 10% 0 10%;
+  color: var(--color-text);
+  display: grid;
+  grid-gap: 10px;
+}
+.specializations-title {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.item {
+  padding-top: 1%;
+}
+
+.specialization-text {
+  display: none;
+}
+
+p:hover + .specialization-text {
+  display: block;
+}
+.container-specialization p {
+  text-decoration: underline;
+  font-weight: bold;
+}
+/* Services page*/
+.services-title {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+.container-services {
+  margin: 0 10% 0 10%;
+  color: var(--color-text);
+  display: grid;
+  grid-gap: 10px;
+  font-size: 20px;
+}
+.services-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.services-item {
+  display: flex;
+  flex-direction: row;
+}
+.title-item {
+  display: grid;
+  align-self: center;
+}
+/* Lawyers page*/
+.lawyers_title {
     font-size: 40px;
-font-weight: 500;
-   text-align: center;
+    font-weight: 500;
+    text-align: center;
+    color: var(--color-text);
+  }
+.container_lawyers {
+  margin: 0 10% 0 10%;
+  color: var(--color-text);
+  display: grid;
+  grid-template-columns: 50vh 50vh 50vh 50vh;
+  grid-gap: 10px;
+  justify-content: space-between;
+  background-color: transparent;
+}
+.lawyer_card {
+  background: linear-gradient(var(--primary), var(--gradient));
+  width: 50vh;
+  height: auto;
+}
+.lawyer_card p {
+  text-align: center;
+}
+.container-lawyer-photo {
+  padding: 4%;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.lawyer_photo {
+  width: 35vh;
+  height: auto;
+}
+/* Contacts*/
+.container-contacts {
+  margin: 0 10% 0 10%;
+  color: var(--color-text);
+  font-size: 4vh;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: grid;
+  height: 100vh;
+}
+.container-items {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.container-items img {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  align-self: center;
+}
+.facebook {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 4vh;
 }
 
 @media only screen and (max-width: 769px) {
-    .main-video-content{
-        position: absolute;
-        left:0;
-        right:0;
-        margin: 0 0 0 0; 
-        color: var(--color-text);
-        text-align: center;
-    }
-    .main-video-text {
-        font-size: 14px;
-        width: 100%;
-        margin: 0 0 0 0;
-        font-style: italic;
-        line-height: 19px; 
-        }
-    
+  .main-video-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 0 0 0;
+    color: var(--color-text);
+    text-align: center;
+  }
+  .main-video-text {
+    font-size: 14px;
+    width: 100%;
+    margin: 0 0 0 0;
+    font-style: italic;
+    line-height: 19px;
+  }
 
+  /* Specialization page */
+
+  .container-specialization {
+    margin: 0 7% 0 7%;
+    grid-gap: 5px;
+  }
   
+
+  .item {
+    padding-top: 1%;
+    font-size: 14px;
+  }
+  /* Lawyers page*/
+  .container_lawyers {
+    grid-template-columns: 35vh 35vh 35vh;
+    grid-gap: 5px;
+  }
+  .lawyer_card {
+    width: 35vh;
+  }
+
+  .lawyer_photo {
+    width: 25vh;
+  }
 }
 
 @media only screen and (max-width: 425px) {
-    .main-video video{
-        height: 100vh; 
-      }
-      .main-video::after{        
-        height: 100vh;
-        
-    }
-
-    .main-video-content{
-        position: absolute;
-        margin: 2% 0 2% 0; 
-        color: var(--color-text); 
-        text-align: center;
-    }
-    .main-video-heading{
-        text-transform: uppercase;
-        margin: 1vh; 
-        text-decoration:solid;
-        font-size: 20px;
-        letter-spacing: 5px;
-        
-    }
-    .main-video-text {
+  .main-video-content {
+    position: absolute;
+    margin: 2% 0 2% 0;
+    color: var(--color-text);
+    text-align: center;
+  }
+  .main-video-heading {
+    text-transform: uppercase;
+    margin: 1vh;
+    text-decoration: solid;
+    font-size: 20px;
+    letter-spacing: 5px;
+  }
+  .main-video-text {
     font-size: 11px;
     width: 100%;
     margin: 15px 0 0 0;
     font-style: italic;
-    line-height: 17px; 
-    }
+    line-height: 17px;
   }
+  /* About page*/
+  .about_title {
+    font-size: 20px;
+    text-align: center;
+  }
+  .about-text {
+    padding-top: 5px;
+    font-size: 14px;
+  }
+
+  /* Specializations page*/
+  .container-specialization {
+    margin: 0 7% 0 7%;
+    grid-gap: 5px;
+  }
+  .specializations-title {
+    font-size: 20px;
+    text-align: center;
+  }
+  .item {
+    padding-top: 1%;
+    font-size: 11px;
+  }
+  /* Services page*/
+  .services-item {
+    padding-top: 1%;
+    font-size: 11px;
+  }
+  .services-icon {
+    width: 17px;
+    height: 17px;
+  }
+  .services-title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /* Lawyers page*/
+  .lawyers_title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .container_lawyers {
+    grid-template-columns: 26vh 26vh;
+    grid-gap: 5px;
+    margin: 0 3% 0 3%;
+  }
+  .lawyer_card {
+    width: 26vh;
+  }
+
+  .lawyer_photo {
+    width: 18vh;
+  }
+  /* Contacts*/
+  .container-contacts {
+    margin: 0 5% 0 5%;
+    color: var(--color-text);
+    font-size: 2.5vh;
+  }
+  .container-items img {
+    width: 20px;
+    height: 20px;
+  }
+  .facebook {
+    font-size: 3vh;
+  }
+}

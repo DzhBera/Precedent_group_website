@@ -1,5 +1,5 @@
 import css from "../Pages/pages.css";
-import Video from "./../../assets/video/background-video.mp4"
+
 
 function HomePage() {
     return (

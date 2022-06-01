@@ -15,7 +15,7 @@ function HeaderMobile() {
       <div className={css.container}>
         <div className={css.logo_container}>
           <Link to="/">
-            <span className={css.logo}> Прецедент ГруппM</span>
+            <span className={css.logo}> Прецедент Групп</span>
           </Link>
         </div>
         <button onClick={() => setShowNav(!showNav)}>
